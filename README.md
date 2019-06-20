@@ -1,5 +1,6 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 30 May 2019. The README is checked out on documentation branch for changes.
+The github project was created on 21 Jun 2019. All changes will be committed to the newly created github project.
 
 ### Project Title
 Replace the Project Title
