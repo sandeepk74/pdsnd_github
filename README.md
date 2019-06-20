@@ -9,8 +9,10 @@ Bikeshare: The analytics engine for all bike rides across USA.
 The project gives out many interesting insights from the biking data aggregated during a period of 6 months from NYC, Washington and Chicago.
 
 ### Files used
-Include the files used
+Files included are 
+bikeshare.py
+readme.txt that gives links used during the project.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+This project is a fork from https://github.com/udacity/pdsnd\_github
