@@ -106,9 +106,9 @@ def load_data(city, month, day):
     raw_count = 0
     while True:
         if raw_count == 0:
-            raw_data_question = input('\nWould you like to see raw data? Enter y or n.\n')
+            raw_data_question = input('\nWould you like to see first 5 lines of raw data? Enter y or n.\n')
         else:
-            raw_data_question = input('\nWould you like to see more raw data? Enter y or n.\n')
+            raw_data_question = input('\nWould you like to see next 5 lines of raw data? Enter y or n.\n')
 
         if raw_data_question.lower() == 'n':
             break
