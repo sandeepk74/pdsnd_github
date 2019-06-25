@@ -24,7 +24,7 @@ def get_filters():
     while True:
         city_question = input('\nWould you like to see data for Chicago, NYC or Washington?\n')
         if city_question.lower() != 'chicago' and city_question.lower() != 'nyc' and city_question.lower() != 'washington':
-            print("Invalid input, please try again.")
+            print("Invalid city name given, please try again.")
         else:
             city = city_question.lower()
             break
@@ -42,7 +42,7 @@ def get_filters():
                 while True:
                     which_month = input('\nWhich month? Enter Jan, Feb, Mar, Apr, May or Jun\n')
                     if which_month.lower() not in MONTH_LIST:
-                        print("Invalid month, please try again.")
+                        print("Invalid month given, please try again.")
                     else:
                         month = MONTH_LIST.index(which_month.lower()) + 1
                         break                    
@@ -52,7 +52,7 @@ def get_filters():
     while True:
         day_question = input('\nWould you like to filter data by day of the week? Enter y or n\n')
         if day_question.lower() != 'y' and day_question.lower() != 'n':
-            print("Invalid input, please try again.")
+            print("Invalid response, please try again.")
         else:
             if day_question.lower() == 'y':
                 while True:
